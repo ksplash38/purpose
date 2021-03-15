@@ -1,0 +1,285 @@
+/*-------------------------------- 
+ * Track and trace
+---------------------------------*/
+
+
+.trackWrapper {
+    background-color: #ffffff;
+    padding: 12px;
+	display:block;
+}
+
+
+.TrackHeader{ background-color:#003184; padding:16px}
+
+.tt_subtitle h4 {color:#b2c1da}
+
+ a#printBtn { cursor: pointer; }
+
+form.form-inline.TTraceForm div.form-group input.btn.btn-default.btn-lg {
+    border: 1px solid #eee !important;
+    color: #ccc;
+}
+form.form-inline.TTraceForm div.form-group input#label_number.form-control.input-lg {
+    width: 100%;
+}
+input#label_number.form-control.input-lg {
+    border: none;
+    box-shadow: none;
+		border-radius:0px;
+		background-color:#ffffff;
+}
+div.tracktopwrapper.col-sm-12 div.col-sm-6 {
+    padding-left: 1px;
+}
+div.tracktopwrapper.col-sm-12 div.col-sm-6 input#label_number.form-control.input-lg {
+    color: #555;
+    margin-top: 8px;
+}
+
+
+input#label_number.form-control.input-lg{ height:42px;}
+input#trace_button.btn.btn-primary.btn-lg { height:20px; line-height: 50%;}
+
+input#trace_button.btn.btn-primary.btn-lg {
+    
+}
+
+input#trace_button.btn.btn-primary.btn-lg{
+border-radius:0px;
+border:0px;
+}
+
+div.trackFormHeader { padding-top:32px; padding-bottom:28px; background-color:#fff;}
+
+div.trackFormHeader div.inputWrapper{ 
+margin:0 auto; border: solid 1px #e0e0e0; padding:3px; height:48px;}
+
+#track_results {
+    float: left;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+#trackheader {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+
+#track_labelnumber {
+    font-size: 13px;
+    padding-left: 8px;
+    padding-top: 16px;
+    width: 100%;
+}
+
+
+.track_number {
+	color:#003184;
+    font-size: 22px;
+	display:block; clear:both;
+	padding-bottom:16px;
+}
+.assocLabelNumber {
+	color:#ba0c2f;
+    font-size: 22px;
+	clear:both;
+	padding-bottom:16px;
+}
+.track_columntitle {
+    font-size: 13px;
+    font-weight: bold;
+	padding-top:22px;
+	padding-bottom:6px;
+}
+.track_row {
+    background-color: #fff;
+
+    border-radius: 0px;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+	width:100%;
+}
+
+.status_description tbody tr td {
+    padding-bottom: 12px;
+}
+div#tt_result.col-sm-12 div.track_row div#track_column2 div#sig_obtained p.status_description {
+    padding-top: 10px;
+}
+div.track_row div#track_column2 .status_description tbody tr td {
+    border: medium none;
+    padding-top: 20px;
+}
+#track_column1 {
+    float: left;
+    min-height: 1px;
+    text-align: center;
+    width: 62px;
+}
+div.track_row div#track_column1 {
+}
+#track_column2 {
+    float: left;
+    margin-right: 12px;
+    min-height: 1px;
+    padding-left: 8px;
+    width: 260px;
+}
+.status_heading {
+    color: #3a5dae;
+    font-size: 18px;
+}
+.status_description {
+    font-size: 12px;
+    line-height: 115%;
+}
+#track_column3 {
+    float: left;
+    padding-left: 8px;
+    width: 120px;
+}
+#track_date {
+    float: left;
+    width: 100%;
+}
+#track_time {
+    float: left;
+    font-size: 11px;
+    width: 100%;
+}
+#track_column4 {
+    float: left;
+    padding-left: 8px;
+    padding-right: 4px;
+    width: 168px;
+}
+#sig_obtained {
+    height: 40px;
+}
+#sig_companyheading {
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    width: 60px;
+}
+#sig_companyname {
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    width: 180px;
+}
+#sig_nameheading {
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    width: 60px;
+}
+#sig_name {
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    width: 180px;
+}
+
+
+#ttcontainer { display:none;}
+.TTraceForm { overflow:hidden; padding:0px;}
+.TTraceForm H3 {color:#ffffff; padding-top:18px; padding-right:12px; text-align:center}
+.TTraceForm H1 {color:#ffffff; text-align:center}
+.TTraceAnotherPrintWrapper{ padding-top: 22px; background-color:#fff;}
+.TTraceAnotherPrintWrapper a {}
+.inputWrapper{ width:280px; margin-top:14px; margin-bottom:14px; }
+
+#clearBtn {  margin-top:12px;}
+.btnPrint{ margin-top:12px;}
+.TTraceLoader{padding:16px; color:#003184; background-color:#ffffff; text-align:center;}
+.TTraceResult{ background-color:#ffffff; overflow:hidden; padding:16px;margin-top:-2px;}
+.TTraceMailman { display:none; background-color:#ffffff; padding:16px; }
+.TTraceParcelConnect { display:none;  padding:16px 16px 32px 16px; background-color:#ffffff; text-align: center}
+.TTraceOnlineEnquiry{ background-color:#ffffff; padding:16px; margin-bottom:16px; border-top:solid 1px #ccc; text-align:center}
+
+#ttTransitTimes {
+	background-color:#ffffff;
+	text-align:center;
+	margin-top:-2px;
+	padding-bottom:34px;
+}
+
+
+
+@media (max-width: 768px) {
+.track_columntitle {
+    display: none;
+}
+.status_heading {
+    margin: 0 0 1px;
+}
+#track_labelnumber {
+    height: 30px;
+}
+div#track_column3.track_columntitle {
+    display: none;
+}
+div#track_column4.track_columntitle {
+    display: none;
+}
+#track_column1 { margin-bottom: 22px; }
+#track_column2 {
+    width: 210px;
+}
+#track_column3 {
+    width: 100px;
+}
+#track_column4 {
+    width: 118px;
+}
+#tt_result p {
+    margin: 0 0 2px;
+}
+
+}
+
+
+@media (max-width: 400px) {
+	
+
+#track_column2 {
+    width: 70%;
+	padding-bottom: 16px;
+}
+#track_column3 {
+    width: 40%;
+}
+#track_column4 {
+    width: 100px;
+}
+}
+
+
+
+@media (max-width: 340px) {
+#track_column1 {
+    display: none;
+}
+
+}
+/*---PRINT ---------------------------------------------------------------*/
+
+@media print {
+
+a[href]:after { content: " (" attr(href) " ");
+}
+
+.navbar, .TTraceForm, .footerBtm, #top-link-block, .TTraceParcelConnect, .TTraceOnlineEnquiry, .sideBannerFixed{ display:none !important;}
+
+a[href]:after { display:none; } 
+
+}
+
