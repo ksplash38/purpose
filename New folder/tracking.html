@@ -1,0 +1,560 @@
+
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.fastway.com.au/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.fastway.com.au/Fastway-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.fastway.com.au/Fastway-icon-144x144.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed navbar-collapse-main" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+              <i class="fa fa-bars"></i>
+            </button>
+            <a href="index.php">
+              			<img class="logo-img-sm" src="./index_files/fastwaycouriers.png" alt="Fastway Couriers">
+            </a>
+        </div>
+
+
+
+
+
+
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="tracking.php" data-toggle="dropdown">Services <span class="caret"></span></a>
+                         <div class="arrow-up"></div>
+							<ul class="dropdown-menu arrow_up" role="menu">
+                                    <li><a class="parent" href="register.php">Send your parcel</a></li>
+                                    <li><a class="parent" href="register.php">Registration</a></li>
+                                    <li><a class="parent" href="tracking.php">National satchels</a></li>
+                             </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="https://www.fastway.com.au/tools/" data-toggle="dropdown">Tools <span class="caret"></span></a>
+                         <div class="arrow-up"></div>
+							<ul class="dropdown-menu arrow_up" role="menu">
+                                    <li><a class="parent" href="tracking.php">Track</a></li>
+                                    <li><a class="parent" href="tracking.php">Courier locator</a></li>
+                                    <li><a class="parent" href="tracking.php">Quick quote</a></li>
+                                    <li><a class="parent" href="tracking.php">Our rates</a></li>
+                                    <li><a class="parent" href="tracking.php">Fast label</a></li>
+                                    <li><a class="parent" href="tracking.php">Customer portal</a></li>
+                                </ul>
+                        </li>
+                      <!--  <li class="dropdown">
+                            <a class="dropdown-toggle" href="https://www.fastway.com.au/franchising/" data-toggle="dropdown">Franchising <span class="caret"></span></a>
+                         <div class="arrow-up"></div>
+							<ul class="dropdown-menu arrow_up" role="menu">
+                                    <li><a class="parent" href="https://www.fastway.com.au/franchising/courier-franchise/">Courier franchise</a></li>
+                                    <li><a class="parent" href="https://www.fastway.com.au/franchising/regional-franchise/">Regional franchise</a></li>
+                            </ul>
+                        </li>-->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="https://www.fastway.com.au/why-fastway/" data-toggle="dropdown">Why Fastway <span class="caret"></span></a>
+                         <div class="arrow-up"></div>
+							<ul class="dropdown-menu arrow_up" role="menu">
+                                    <li><a class="parent" href="About.php">About us</a></li>
+                                    <li><a class="parent" href="customers.php">Our customers</a></li>
+                                    <li><a class="parent" href="About.php">Our awards</a></li>
+                                    <li><a class="parent" href="customers.php">Our community</a></li>
+                            </ul>
+                        </li>
+                    <li>
+                        <a href="tracking.php">Courier locator</a>
+
+                    </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="contact.php" data-toggle="dropdown">Contact us <span class="caret"></span></a>
+                         <div class="arrow-up"></div>
+							<ul class="dropdown-menu arrow_up" role="menu">
+                                    <li><a class="parent" href="faq.php">FAQs</a></li>
+                                    <li><a class="parent" href="contact.php">Fastway depot</a></li>
+                                    <li><a class="parent" href="tracking.php">Fastway courier</a></li>
+                                    <li><a class="parent" href="feedback.php">Feedback</a></li>
+                            </ul>
+                        </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://www.fastway.com.au/tools/track/ -->
+<html lang="en" ng-app="" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+
+	<title>Fastway Global Couriers | Track</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./tracking_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./tracking_files/fastway.css">
+	<link rel="stylesheet" type="text/css" href="./tracking_files/font-awesome.css">
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.fastway.com.au/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.fastway.com.au/Fastway-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.fastway.com.au/Fastway-icon-144x144.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Javascripts -->
+<script type="text/javascript" async="" src="./tracking_files/insight.min.js.download"></script><script type="text/javascript" async="" src="./tracking_files/f.txt"></script><script async="" src="./tracking_files/analytics.js.download"></script><script async="" src="./tracking_files/gtm.js.download"></script><script src="./tracking_files/jquery.min.js.download"></script>
+    <script src="./tracking_files/bootstrap.min.js.download"></script>
+	<script src="./tracking_files/jquery.validate.min.js.download"></script>
+	<!-- <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.1/jquery.validate.unobtrusive.min.js"></script> -->
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-K2DF7P7':true});</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PF4VXP');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3860999-2', 'auto');
+  ga('require', 'GTM-K2DF7P7');
+  ga('send', 'pageview');
+
+</script>
+
+	<script src="./tracking_files/f(1).txt"></script></head>
+
+
+
+
+ <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PF4VXP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function() {
+     if($(window).width()>769){
+        $('.dropdown').hover(function() {
+
+			 $(this).children('.dropdown-menu').slideDown(200);
+
+        }, function() {
+             $(this).children('.dropdown-menu').slideUp(200);
+
+        });
+
+        $('.dropdown > a').click(function(){
+            location.href = this.href;
+        });
+
+	 }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="./tracking_files/track.js.download"></script>
+<!--
+<script src="/js/tracktrace_v1.3.js"></script>
+-->
+
+<link rel="stylesheet" type="text/css" href="./tracking_files/track-trace.css">
+
+<script type="text/javascript">function printpage() {
+		window.print()
+	}</script>
+
+
+
+
+
+
+<div class="section-track paddTopBottom">
+<div class="container">
+
+
+
+
+<!-- Left column -->
+<div class="col-sm-9">
+<div class="row">
+
+
+
+
+<!-- Form -->
+<form method="post" action="tracking_process.php">
+<div class="col-sm-12">
+<div class="TTraceForm">
+
+<div class="TrackHeader" style="text-align:center">
+<h1>Track your parcel</h1>
+<h4 style="color:#fff; text-align:center">Check the delivery status of your parcel </h4>
+
+</div>
+
+
+
+<div class="arrow-downBlue"></div>
+
+<!--form header -->
+<div class="trackFormHeader">
+
+<div class="inputWrapper">
+<div class="input-group">
+<input class="form-control input-lg" id="label_number" name="trackingnumbb" placeholder="Enter label number" maxlength="13" type="text">
+<span class="input-group-btn">
+<input name="hidden" value="FixIEbug" style="display: none;" type="text">
+<input class="btn btn-primary" value="TRACK" id="trace_button" type="submit" name="submit2">Track</button> </span>
+</div>
+</div>
+
+
+<!-- Track another and Print ------------->
+<div class="TTraceAnotherPrintWrapper" id="trackPrint" style="display:none; text-align:center">
+<p><a id="clearBtn" style="padding-right:6px;" href="tracking.php">Track another parcel</a>
+<span class="hidden-xs" style="color:#23527c"> |</span>
+<a id="printBtn" style="padding-left:6px;" class="hidden-xs"> Print</a>
+</p>
+</div>
+<!-- End Track another and Print -------->
+
+</div>
+<!--End form header ----------------------------------------->
+
+
+
+
+
+</div>
+
+</div><!-- End form -->
+</form>
+
+
+<!-- Loader -->
+<div class="col-sm-12">
+<div class="TTraceLoader" id="trackloader" style="display: none;">
+<img alt="circle loader" src="./tracking_files/circle-loader-blue.gif" height="16" width="16"> loading...
+</div>
+</div>
+
+
+<!-- Show hide Wrapper for result and btns-->
+<div id="ttcontainer" style="display: none;">
+
+
+
+<!-- Result -->
+<div class="col-sm-12">
+<div class="TTraceResult" id="tt_result"></div>
+</div>
+
+
+
+<!-- Parcel Connect row -->
+<div class="col-sm-12">
+<div class="TTraceParcelConnect" id="pc-learnmore" style="display: none;">
+<a href="tracking.php" target="new" class="btn btn-primary">Learn more about <img alt="logoParcelConnectSml" src="./tracking_files/logoParcelConnectSml.png" height="21" width="107"></a>
+</div>
+</div>
+
+
+<!-- Mailman row -->
+<div class="col-sm-12">
+<div id="MailmanMsg" class="TTraceMailman">
+<h4>Mailman customers</h4>
+<p style="color: #3a5dae;">For deliveries into regional areas, ‘signature obtained’ delivery trace may be referring to receipt by our on-forwarder and not final destination.</p>
+</div>
+</div>
+
+
+<!-- Transit times -->
+<div class="col-sm-12">
+	<div id="ttTransitTimes" style="display:none">
+			<a href="tracking.php" class="btn btn-red btn-lg" id="ttTransitTimesLink">
+			<i class="fa fa-clock-o" aria-hidden="true"></i> How long will it take?</a>
+	</div>
+</div>
+
+
+
+<!-- Enquiry  row -->
+<div class="col-sm-12">
+<div class="TTraceOnlineEnquiry">
+<p>Can't find your parcel above or want to ask a question?
+<a href="feedback.php" id="oe-link">Submit online enquiry</a>
+</p>
+
+</div>
+</div><!-- END enquiry row -->
+
+
+</div>
+<!-- END Show hide Wrapper for result and btns-->
+
+
+
+
+</div><!-- END TTrace left row-->
+</div><!-- END TTrace left column-->
+
+
+
+
+
+
+
+
+    <!-- Right Column Banner-->
+		<div class="col-sm-3 hidden-xs">
+<div class="sideBannerFixed">
+   <a>
+	<img src="./tracking_files/ss_banner_v2.jpg">
+	</a>
+</div>
+
+</div>
+
+<!-- End Right Column Banner-->
+
+
+
+
+
+
+
+
+</div> 	<!-- end Container -->
+
+</div> 	<!-- end section track -->
+
+
+
+
+<footer class="footerBtm">
+<div class="container">
+<section>
+<div class="footerWrapper">
+
+
+<div class="col-xs-12">
+<div class="hidden-xs">
+
+	<h4>Fastway depots</h4>
+
+
+		<ul class="footerDepots">
+			<li> <a href="">Adelaide</a>	</li>
+			<li> <a href="">Albury</a>	</li>
+			<li> <a href="">Bendigo</a>	</li>
+			<li> <a href="">Brisbane</a>	</li>
+			<li> <a href="">Cairns</a>	</li>
+			<li> <a href="">Canberra</a>	</li>
+			<li> <a href="">Capricorn Coast</a>	</li>
+			<li> <a href="">Central Coast</a>	</li>
+			<li> <a href="">Coffs Harbour</a>	</li>
+			<li> <a href="">Geelong &amp; Ballarat</a>	</li>
+			<li> <a href="">Gold Coast</a>	</li>
+			<li> <a href="">Hobart</a>	</li>
+			<li> <a href="">Launceston</a>	</li>
+			<li> <a href="">Mackay</a>	</li>
+			<li> <a href="">Melbourne</a>	</li>
+			<li> <a href="">Newcastle</a>	</li>
+			<li> <a href="">Northern Rivers</a>	</li>
+			<li> <a href="">Orange</a>	</li>
+			<li> <a href="">Perth</a>	</li>
+			<li> <a href="">Port Macquarie</a>	</li>
+			<li> <a href="">Sunshine Coast</a>	</li>
+			<li> <a href="">Sydney</a>	</li>
+			<li> <a href="">Tamworth</a>	</li>
+			<li> <a href="">Toowoomba</a>	</li>
+			<li> <a href="">Townsville</a>	</li>
+			<li> <a href="">Wide Bay</a>	</li>
+			<li> <a href="">Wollongong</a>	</li>
+		</ul>
+<hr>
+
+	</div>
+</div>
+
+
+<div class="col-xs-12 col-md-3">
+
+<div class="hidden-xs">
+	<h4>Why Fastway</h4>
+<ul>
+  <li><a href="About.php">About us</a></li>
+       <!-- <li><a href="/why-fastway/our-blog/">Our blog</a></li>-->
+        <li><a href="customers.php">Our customers</a></li>
+        <li><a href="customers.php">Our awards</a> </li>
+        <li><a href="About.php">Our community</a></li>
+</ul>
+	</div>
+
+	<div class="hidden-xs">
+	<h4><a href="contact.php">Contact us</a></h4>
+</div>
+
+
+  </div>
+
+
+
+        <div class="col-xs-12 col-md-3">
+
+<div class="hidden-xs">
+<h4>Our services</h4>
+<ul>
+
+        <li><a class="CurrentPage" href="register.php">Send your parcel</a></li>
+        <li><a href="register.php">Registration</a></li>
+		<li><a href="tracking.php">Receiver pays</a></li>
+</ul>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+  <div class="col-xs-12 col-md-3">
+
+<div class="hidden-xs">
+	<h4>Franchise</h4>
+<ul>
+	<li><a href="">Fastway franchise</a></li>
+	<li><a href="">Courier franchise opportuniites</a></li>
+	<li><a href="">Regional franchise opportunities</a></li>
+</ul></div>
+
+
+
+<h4>Apps</h4>
+<ul>
+<li><i class="fa fa-apple"></i><a target="_blank" href=""> Fastway App </a></li>
+<li><i class="fa fa-android"></i><a target="_blank" href=""> Fastway App </a></li>
+</ul>
+
+  </div>
+
+
+
+
+
+  <div class="col-xs-12 col-md-3">
+
+
+	<h4>Terms and conditions</h4>
+<ul>
+	<li><a href="">Privacy policy</a></li>
+	<li><a href="">Privacy collection statement</a></li>
+	<li><a href="">Terms of use</a></li>
+	<li><a href="">Conditions of carriage</a></li>
+	<li><a href="">Authority to leave</a></li>
+</ul>
+
+
+<div class="hidden-xs">
+	<h4>Proudly supporting</h4>
+<ul>
+	<li><a target="_blank" href="https://www.beyondblue.org.au/">Beyond Blue</a></li>
+	<li><a target="_blank" href="http://www.daffodilday.com.au/">Cancer Council</a></li>
+</ul></div>
+
+  </div>
+
+
+  </div>
+
+
+
+
+ </section>
+ </div>
+</footer>
+
+
+<!-- BACK TO TOP -->
+    <span id="top-link-block">
+        <a href="index.php/#top" class="well well-sm" onclick="$(&#39;html,body&#39;).animate({scrollTop:0},&#39;slow&#39;);return false;">
+  			<i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+    </span>
+    <!--// BACK TO TOP -->
+
+
+		 <footer class="copyrightBtm">
+      <div class="container">
+
+
+
+	<div class="col-xs-7 col-sm-9">
+		<p>© Fastway Global Couriers (Worldwide) </p>
+	</div>
+
+	<div class="col-xs-5 col-sm-3">
+	<div class="social-media" style="float: right;">
+		<a target="_blank" href="index.php" style="padding-left: 4px; ; padding-right: 4px;"><img alt="icon facebook" src="./tracking_files/icon_facebook.png"></a>
+	</div>
+	</div>
+
+
+
+
+ </div>
+</footer>
+
+
+<!-- CDF: No JS dependencies were declared //-->
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","143510159313672");fbq("set","agent","tmgoogletagmanager","143510159313672");fbq("track","PageView");</script><script src="./tracking_files/saved_resource" type="text/javascript"></script></body></html>
